@@ -68,7 +68,7 @@ class _MyHomePageState extends State<MyHomePage> {
     ProductCard(
       title: 'شاهي على الحطب ',
       subTitle: 'في كوب ورق  ',
-      imageUrl: 'assets/images/blog-1.jpg',
+      imageUrl: 'assets/images/cartoonTea.png',
       price: '4 ',
     ),
     ProductCard(

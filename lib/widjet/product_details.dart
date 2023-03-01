@@ -43,51 +43,51 @@ class ProducDetailsScreen extends StatelessWidget {
                               fontWeight: FontWeight.w700,
                               fontSize: 22)),
                     ),
-                    Container(
-                      margin: const EdgeInsets.only(
-                        left: 30,
-                        right: 30,
-                        top: 30,
-                      ),
-                      alignment: Alignment.center,
-                      height: 50,
-                      width: double.infinity,
-                      decoration: BoxDecoration(
-                          color: const Color(0xFFF5F5F5),
-                          borderRadius: BorderRadius.circular(30)),
-                      child: Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                        children:  [
-                          Text('صغير',
-                              style: TextStyle(
-                                  color: Constants.darkColor,
-                                  fontWeight: FontWeight.w500,
-                                  fontSize: 16)),
-                          SizedBox(
-                            height: 40,
-                            child: VerticalDivider(
-                              color: Colors.black45,
-                            ),
-                          ),
-                          Text('متوسط',
-                              style: TextStyle(
-                                  color: Constants.darkColor,
-                                  fontWeight: FontWeight.w500,
-                                  fontSize: 16)),
-                          SizedBox(
-                            height: 40,
-                            child: VerticalDivider(
-                              color: Colors.black45,
-                            ),
-                          ),
-                          Text('كبير',
-                              style: TextStyle(
-                                  color: Constants.darkColor,
-                                  fontWeight: FontWeight.w500,
-                                  fontSize: 16)),
-                        ],
-                      ),
-                    ),
+                    // Container(
+                    //   margin: const EdgeInsets.only(
+                    //     left: 30,
+                    //     right: 30,
+                    //     top: 30,
+                    //   ),
+                    //   alignment: Alignment.center,
+                    //   height: 50,
+                    //   width: double.infinity,
+                    //   decoration: BoxDecoration(
+                    //       color: const Color(0xFFF5F5F5),
+                    //       borderRadius: BorderRadius.circular(30)),
+                    //   child: Row(
+                    //     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    //     children:  [
+                    //       Text('صغير',
+                    //           style: TextStyle(
+                    //               color: Constants.darkColor,
+                    //               fontWeight: FontWeight.w500,
+                    //               fontSize: 16)),
+                    //       SizedBox(
+                    //         height: 40,
+                    //         child: VerticalDivider(
+                    //           color: Colors.black45,
+                    //         ),
+                    //       ),
+                    //       Text('متوسط',
+                    //           style: TextStyle(
+                    //               color: Constants.darkColor,
+                    //               fontWeight: FontWeight.w500,
+                    //               fontSize: 16)),
+                    //       SizedBox(
+                    //         height: 40,
+                    //         child: VerticalDivider(
+                    //           color: Colors.black45,
+                    //         ),
+                    //       ),
+                    //       Text('كبير',
+                    //           style: TextStyle(
+                    //               color: Constants.darkColor,
+                    //               fontWeight: FontWeight.w500,
+                    //               fontSize: 16)),
+                    //     ],
+                    //   ),
+                    // ),
 
                     //const SizeListSection(),
                     const Padding(
